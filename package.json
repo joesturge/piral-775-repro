@@ -32,8 +32,17 @@
   },
   "app": "./src/index.html",
   "types": "dist/index.d.ts",
-  "importmap": {
-    "imports": {},
+  "importmap": {    
+    "imports": {
+      "@angular/common": "",
+      "@angular/compiler": "",
+      "@angular/core": "",
+      "@angular/platform-browser": "",
+      "@angular/platform-browser-dynamic": "",
+      "piral-ng-common": "",
+      "rxjs": "",
+      "zone.js": ""
+    },
     "inherit": [
       "piral-base",
       "piral-core",
